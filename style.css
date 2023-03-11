@@ -481,6 +481,7 @@ footer {
   }
   footer {
     padding-right: 250px;
+    padding-left: 100px;
   }
   .footer-information {
     flex-direction: row;
