@@ -148,14 +148,23 @@ div.container p {
   margin-bottom: 40px;
   display: inline-block;
   cursor: pointer;
+  height: 20px;
+}
+.see a {
+  color: #3da08f;
+  margin-left: 0px;
 }
 .see:hover {
-  color: #71dfcc;
   border-bottom: solid 0.5px #71dfcc;
 }
-
-.arrow-icon:hover {
+.see:hover a,
+.see:hover .arrow-icon {
+  color: #71dfcc;
   fill: #71dfcc;
+}
+.arrow-icon {
+  margin-bottom: -4px;
+  margin-left: 3px;
 }
 .card {
   background-color: white;
